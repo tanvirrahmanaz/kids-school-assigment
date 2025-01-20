@@ -282,7 +282,7 @@ header section{
     justify-content: center;
     text-align: center;
     padding: 0;
-  }
+  } 
 
 
 
@@ -290,7 +290,7 @@ header section{
 
   .curriculum-section{
     background-image: url("../assets/bg.png"); 
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
