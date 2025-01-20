@@ -217,10 +217,6 @@ header section{
   background: linear-gradient(to bottom, rgba(242, 232, 255, 1), rgba(242, 232, 255, .001));
 }
 
-.card-link:hover {
-  text-decoration: underline;
-}
-
 .pagination {
   margin-top: 30px;
 }
@@ -271,20 +267,45 @@ header section{
   }
 
 
-header section{
-  flex-direction: column;
-  padding: 0;
-}
-.header-section-div2{
-  order: 1;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;  
-}
-.header-section-div1{
-  order: 2;
-  justify-content: center;
-  text-align: center;
-  padding: 0;
-}
+  header section{
+    flex-direction: column;
+    padding: 0;
+  }
+  .header-section-div2{
+    order: 1;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;  
+  }
+  .header-section-div1{
+    order: 2;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+  }
+
+
+
+  /* curriculum section  */
+
+  .curriculum-section{
+    background-image: url("/assets/bg.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+  }
+  .curriculum-cards{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .curriculum-card:hover {
+    transform: none
+  }
+  .pagination{
+    display: none;
+  }
+
 }
