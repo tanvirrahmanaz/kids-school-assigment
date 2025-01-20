@@ -149,12 +149,103 @@ header section{
   font-size: larger;
 }
 
+/* main section start  */
+.curriculum-section {
+  background-image: url("/assets/bg.png");
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.curriculum-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.curriculum-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.curriculum-card:hover {
+  transform: translateY(-10px);
+}
+
+.card-image img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.card-link {
+  font-size: 0.9rem;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.color1{
+  background: linear-gradient(to bottom, rgba(222, 245, 255, 1), rgba(222, 245, 255, 0.1));
+}
+.color2{
+  background: linear-gradient(to bottom, rgba(255, 244, 220, 1), rgba(255, 244, 220, 0.09));
+}
+.color3{
+  background: linear-gradient(to bottom, rgba(242, 232, 255, 1), rgba(242, 232, 255, .001));
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+.pagination {
+  margin-top: 30px;
+}
+
+.pagination-btn {
+  background-color: #ffa500;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-btn:hover {
+  background-color: #ff8700;
+}
 
 
 @media screen and (max-width:700px) {
   body{
-    margin: 10px 0;    /* Changed margin */
-    padding: 0 20px;   /* Add padding instead */
+    margin: 10px 0;    
+    padding: 0 20px;  
   }
   .container {
     padding: 10px 20px;
@@ -163,11 +254,11 @@ header section{
     display: none;
    }
   .hamburger-menu {
-    display: flex;  /* Mobile e show korbe */
+    display: flex;  
   }
 
   .nav-menu, .nav-contact {
-    display: none;  /* Initially hide menu */
+    display: none;  
   }
 
   nav.active .nav-menu {
