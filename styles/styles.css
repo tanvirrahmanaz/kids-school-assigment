@@ -499,4 +499,30 @@ header section{
     font-size: 0.9rem;
     width: 120px;
   }
+
+
+  /* footer section  */
+  .footer-details{
+    padding: 50px 30px;
+    margin: 0px 0px;
+  }
+  .footer-details{
+    display: flex;
+    flex-direction: column;
+  }
+  .kids-education{
+    height: auto;
+    width: auto;
+    margin-bottom: 30px;
+  }
+  .about-school{
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .about-school h3{
+    font-size: 1.5rem;
+  }
+  .keep-in-touch h3{
+    font-size: 1.5rem;
+  }
 }
